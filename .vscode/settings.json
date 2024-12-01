@@ -1,0 +1,10 @@
+{
+    // Disable format on save for all files by default
+    "editor.formatOnSave": false,
+
+    // Enable format on save for Python files only
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+}
